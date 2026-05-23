@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doors Foundation Script Hub</title>
+    <style>
+        body {
+            background-color: #121214;
+            color: #ffffff;
+            font-family: 'Segoe UI', sans-serif;
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+            background: #1a1a1e;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+        }
+        h1 { color: #00ffff; font-size: 24px; }
+        p { color: #aaaaaa; font-size: 14px; }
+        .btn {
+            background: #00bfff;
+            color: #fff;
+            border: none;
+            padding: 12px 24px;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: 0.3s;
+            margin-top: 20px;
+            width: 100%;
+        }
+        .btn:hover { background: #0088cc; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>🚪 Doors Ultimate Foundation</h1>
+    <p>The most optimized script for mobile executors like Delta.</p>
+    <hr style="border-color: #2b2b36; margin: 20px 0;">
+    <p><strong>Features:</strong> Fullbright, Anti-Screech, Auto-Click Breakers, and Seek Pathfinder.</p>
+    
+    <button class="btn" onclick="copyScript()">Copy Loadstring Script</button>
+</div>
+
+<script>
+function copyScript() {
+    const loadstring = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/hengkiut92-ship-it/Type-a-clean-name-here-like-doors-foundation/main/Main.lua"))()';
+    navigator.clipboard.writeText(loadstring);
+    alert("Loadstring copied! Paste it into your Delta Executor.");
+}
+</script>
+
+</body>
+</html>
